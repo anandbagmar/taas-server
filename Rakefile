@@ -1,4 +1,5 @@
 require "taas"
+require "pry"
 
 namespace :taas do
   desc 'Start the TaaS Server'

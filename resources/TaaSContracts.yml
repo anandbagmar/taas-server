@@ -1,0 +1,10 @@
+contracts:
+  cucumber:
+    timeout_in_seconds: 30
+    dir: "/Users/anand/Projects/MyProjects/cuke-jvm-sample/"
+    command: "/Users/anand/Projects/MyProjects/gradle-1.11/bin/gradle clean cucumber <taas_params>"
+    input_param_format: -Pkey=value
+    input_params:
+      search_for:
+    output_params:
+      result_count:
